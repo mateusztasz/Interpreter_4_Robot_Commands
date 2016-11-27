@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<XMI verified="false" xmi.version="1.2" timestamp="2015-11-20T15:29:57" xmlns:UML="http://schema.omg.org/spec/UML/1.3">
+ <XMI.header>
+  <XMI.documentation>
+   <XMI.exporter>umbrello uml modeller http://umbrello.kde.org</XMI.exporter>
+   <XMI.exporterVersion>1.6.4</XMI.exporterVersion>
+   <XMI.exporterEncoding>UnicodeUTF8</XMI.exporterEncoding>
+  </XMI.documentation>
+  <XMI.metamodel xmi.version="1.3" href="UML.xml" xmi.name="UML"/>
+ </XMI.header>
+ <XMI.content>
+  <UML:Model isSpecification="false" isAbstract="false" isLeaf="false" xmi.id="m1" isRoot="false" name="UML Model">
+   <UML:Namespace.ownedElement>
+    <UML:Stereotype visibility="public" isSpecification="false" namespace="m1" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="folder" name="folder"/>
+    <UML:Stereotype visibility="public" isSpecification="false" namespace="m1" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="datatype" name="datatype"/>
+    <UML:Model stereotype="folder" visibility="public" isSpecification="false" namespace="m1" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="Logical View" name="Logical View">
+     <UML:Namespace.ownedElement>
+      <UML:Package stereotype="folder" visibility="public" isSpecification="false" namespace="Logical View" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="Datatypes" name="Datatypes">
+       <UML:Namespace.ownedElement>
+        <UML:DataType stereotype="datatype" visibility="public" isSpecification="false" namespace="Datatypes" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="KUT3aTWrGrta" name="int"/>
+        <UML:DataType stereotype="datatype" visibility="public" isSpecification="false" namespace="Datatypes" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="g72OEFFX0axw" name="char"/>
+        <UML:DataType stereotype="datatype" visibility="public" isSpecification="false" namespace="Datatypes" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="vWdDgyr1SL22" name="bool"/>
+        <UML:DataType stereotype="datatype" visibility="public" isSpecification="false" namespace="Datatypes" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="mXr2Oja4qcS3" name="float"/>
+        <UML:DataType stereotype="datatype" visibility="public" isSpecification="false" namespace="Datatypes" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="qhYqFVkA1MLg" name="double"/>
+        <UML:DataType stereotype="datatype" visibility="public" isSpecification="false" namespace="Datatypes" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="KDfnWhnIEfJd" name="short"/>
+        <UML:DataType stereotype="datatype" visibility="public" isSpecification="false" namespace="Datatypes" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="MtfCW6FMloA1" name="long"/>
+        <UML:DataType stereotype="datatype" visibility="public" isSpecification="false" namespace="Datatypes" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="Ht9HFVvXgaKC" name="unsigned int"/>
+        <UML:DataType stereotype="datatype" visibility="public" isSpecification="false" namespace="Datatypes" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="F6SUjl55fiH9" name="unsigned short"/>
+        <UML:DataType stereotype="datatype" visibility="public" isSpecification="false" namespace="Datatypes" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="oVTaHbbWUknh" name="unsigned long"/>
+        <UML:DataType stereotype="datatype" visibility="public" isSpecification="false" namespace="Datatypes" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="DiFtGZ3WdWyM" name="string"/>
+       </UML:Namespace.ownedElement>
+      </UML:Package>
+     </UML:Namespace.ownedElement>
+     <XMI.extension xmi.extender="umbrello">
+      <diagrams>
+       <diagram showopsig="1" linecolor="#ff0000" snapx="25" showattribassocs="1" snapy="25" linewidth="0" showattsig="1" textcolor="#000000" isopen="0" showpackage="1" showpubliconly="1" showstereotype="1" name="class diagram" font="Sans Serif,9,-1,0,50,0,0,0,0,0" canvasheight="0" canvaswidth="0" localid="-1" snapcsgrid="0" showgrid="0" showops="1" griddotcolor="#d3d3d3" backgroundcolor="#ffffff" usefillcolor="1" fillcolor="#ffff00" zoom="100" xmi.id="JlNRxLbhIANg" documentation="" showscope="1" snapgrid="0" showatts="1" type="1">
+        <widgets/>
+        <messages/>
+        <associations/>
+       </diagram>
+       <diagram showopsig="1" linecolor="#ff0000" snapx="25" showattribassocs="1" snapy="25" linewidth="0" showattsig="1" textcolor="#000000" isopen="1" showpackage="1" showpubliconly="1" showstereotype="1" name="z1_diagram_czynnosci" font="Sans Serif,9,-1,0,50,0,0,0,0,0" canvasheight="901,7816378183774" canvaswidth="697,552536308405" localid="-1" snapcsgrid="0" showgrid="0" showops="1" griddotcolor="#d3d3d3" backgroundcolor="#ffffff" usefillcolor="1" fillcolor="#ffff00" zoom="48" xmi.id="H1Rwjh3YCW6R" documentation="" showscope="1" snapgrid="0" showatts="1" type="6">
+        <widgets>
+         <activitywidget linecolor="none" usesdiagramfillcolor="0" linewidth="0" textcolor="#000000" usesdiagramusefillcolor="0" x="-91,36986301369862" showstereotype="1" y="-311,4794520547945" font="Sans Serif,9,-1,0,50,0,0,0,0,0" localid="6hxaPjIbPXUg" width="15" isinstance="0" usefillcolor="1" fillcolor="#ffff00" activityname="" xmi.id="4YAi484J9UEs" postcondition="" documentation="" activitytype="0" height="15" precondition=""/>
+         <activitywidget linecolor="none" usesdiagramfillcolor="0" linewidth="0" textcolor="#000000" usesdiagramusefillcolor="0" x="-139,3185475103284" showstereotype="1" y="-112,2472276581866" font="Sans Serif,9,-1,0,50,0,0,0,0,0" localid="m0UtUilfxA0j" width="112,027397260274" isinstance="0" usefillcolor="1" fillcolor="#fdfffa" activityname="Wczytaj slowo" xmi.id="ckZmS0JsgRgu" postcondition="" documentation="" activitytype="1" height="24" precondition=""/>
+         <activitywidget linecolor="none" usesdiagramfillcolor="0" linewidth="0" textcolor="#000000" usesdiagramusefillcolor="0" x="313,0136986301369" showstereotype="1" y="-167,8082191780822" font="Sans Serif,9,-1,0,50,0,0,0,0,0" localid="qkinGYHPTsYe" width="15" isinstance="0" usefillcolor="1" fillcolor="#ffff00" activityname="" xmi.id="KXADjrFP5VTV" postcondition="" documentation="" activitytype="2" height="15" precondition=""/>
+         <activitywidget linecolor="none" usesdiagramfillcolor="0" linewidth="0" textcolor="#000000" usesdiagramusefillcolor="0" x="11,64383373521778" showstereotype="1" y="-182,1917732970355" font="Sans Serif,9,-1,0,50,0,0,0,0,0" localid="8dIamcKSESai" width="130" isinstance="0" usefillcolor="1" fillcolor="#ffff00" activityname="Wypisz komunikat" xmi.id="8MSJGPCzZTnF" postcondition="" documentation="" activitytype="1" height="30" precondition=""/>
+         <activitywidget linecolor="none" usesdiagramfillcolor="0" linewidth="0" textcolor="#000000" usesdiagramusefillcolor="0" x="-164,6610138908265" showstereotype="1" y="-249,6249113537016" font="Sans Serif,9,-1,0,50,0,0,0,0,0" localid="4Lp6wC3Mq7dd" width="186" isinstance="0" usefillcolor="1" fillcolor="#fdfffa" activityname="Wykonanie skryptu polecen" xmi.id="UEg2gcw9tw2R" postcondition="" documentation="" activitytype="1" height="24" precondition=""/>
+         <floatingtext linecolor="none" usesdiagramfillcolor="0" linewidth="0" textcolor="#000000" usesdiagramusefillcolor="0" x="213,6986301369863" showstereotype="1" y="-196,5753424657534" text="Powrot do menu" font="Sans Serif,9,-1,0,50,0,0,0,0,0" localid="vsYxjqNw4Tse" pretext="" role="700" width="106" isinstance="0" posttext="" usefillcolor="1" fillcolor="#ffff00" xmi.id="Tmt2STCqRuhf" height="18"/>
+         <activitywidget linecolor="none" usesdiagramfillcolor="0" linewidth="0" textcolor="#000000" usesdiagramusefillcolor="0" x="-129,4520568847656" showstereotype="1" y="-181,4307420518663" font="Sans Serif,9,-1,0,50,0,0,0,0,0" localid="7fIPOs7Zde8H" width="93" isinstance="0" usefillcolor="1" fillcolor="#ffff00" activityname="Czy sukces?" xmi.id="rNopPzBc0roO" postcondition="" documentation="" activitytype="1" height="30" precondition=""/>
+         <activitywidget linecolor="none" usesdiagramfillcolor="0" linewidth="0" textcolor="#000000" usesdiagramusefillcolor="0" x="-137,6396269096432" showstereotype="1" y="468,3033769488121" font="Sans Serif,9,-1,0,50,0,0,0,0,0" localid="HuHuWP9Mlw9A" width="93" isinstance="0" usefillcolor="1" fillcolor="#ffff00" activityname="Czy sukces?" xmi.id="vKkvCWH0EDPX" postcondition="" documentation="" activitytype="1" height="30" precondition=""/>
+         <activitywidget linecolor="none" usesdiagramfillcolor="0" linewidth="1" textcolor="#000000" usesdiagramusefillcolor="0" x="-260,3175231124769" showstereotype="1" y="15,71257724653637" font="Sans Serif,9,-1,5,50,0,0,0,0,0" localid="dDTM9dW2vEw5" width="359" isinstance="0" usefillcolor="1" fillcolor="#fdfffa" activityname="Znajdz obiekt  odpowiadajacy poleceniu danego slowem" xmi.id="lD4zQTVKzQbw" postcondition="" documentation="" activitytype="1" height="54,47619047619047" precondition=""/>
+         <activitywidget linecolor="none" usesdiagramfillcolor="0" linewidth="0" textcolor="#000000" usesdiagramusefillcolor="0" x="-132,6266632080078" showstereotype="1" y="-63,97042465209961" font="Sans Serif,9,-1,0,50,0,0,0,0,0" localid="qEVlTRrEfvB3" width="93" isinstance="0" usefillcolor="1" fillcolor="#ffff00" activityname="Czy sukces?" xmi.id="MgNM5wICUNsG" postcondition="" documentation="" activitytype="1" height="30" precondition=""/>
+         <activitywidget linecolor="none" usesdiagramfillcolor="0" linewidth="0" textcolor="#000000" usesdiagramusefillcolor="0" x="-191,0939047993093" showstereotype="1" y="403,9121897600699" font="Sans Serif,9,-1,0,50,0,0,0,0,0" localid="IHHvCTzW7KsC" width="200" isinstance="0" usefillcolor="1" fillcolor="#fdfffa" activityname="Wykonaj polecenie na robocie" xmi.id="H8MjWC02ocve" postcondition="" documentation="" activitytype="1" height="24" precondition=""/>
+         <activitywidget linecolor="none" usesdiagramfillcolor="0" linewidth="0" textcolor="#000000" usesdiagramusefillcolor="0" x="-130,7917938232422" showstereotype="1" y="116,7635192871094" font="Sans Serif,9,-1,0,50,0,0,0,0,0" localid="KGkSbbcqjzZD" width="93" isinstance="0" usefillcolor="1" fillcolor="#ffff00" activityname="Czy sukces?" xmi.id="9XEx99c9PxiV" postcondition="" documentation="" activitytype="1" height="30" precondition=""/>
+         <activitywidget linecolor="none" usesdiagramfillcolor="0" linewidth="0" textcolor="#000000" usesdiagramusefillcolor="0" x="-218,0685424804688" showstereotype="1" y="187,7527618408203" font="Sans Serif,9,-1,0,50,0,0,0,0,0" localid="FcuxbR8lzMg8" width="287" isinstance="0" usefillcolor="1" fillcolor="#fdfffa" activityname="Wczytaj parametry dla znalezionego obiektu" xmi.id="TIGrDwMtIHbV" postcondition="" documentation="" activitytype="1" height="24" precondition=""/>
+         <activitywidget linecolor="none" usesdiagramfillcolor="0" linewidth="0" textcolor="#000000" usesdiagramusefillcolor="0" x="-133,2917938232422" showstereotype="1" y="248,0135192871094" font="Sans Serif,9,-1,0,50,0,0,0,0,0" localid="GRyFndLHvZ87" width="93" isinstance="0" usefillcolor="1" fillcolor="#ffff00" activityname="Czy sukces?" xmi.id="VU0ljcFA7I5H" postcondition="" documentation="" activitytype="1" height="30" precondition=""/>
+         <activitywidget linecolor="none" usesdiagramfillcolor="0" linewidth="0" textcolor="#000000" usesdiagramusefillcolor="0" x="-241,8185424804688" showstereotype="1" y="322,7527770996094" font="Sans Serif,9,-1,0,50,0,0,0,0,0" localid="lePgCXlfzmPi" width="315" isinstance="0" usefillcolor="1" fillcolor="#fdfffa" activityname="Wypisz skladnie i komende dla danego polecenia" xmi.id="MeqTuvjExMAn" postcondition="" documentation="" activitytype="1" height="24" precondition=""/>
+         <activitywidget linecolor="none" usesdiagramfillcolor="0" linewidth="0" textcolor="#000000" usesdiagramusefillcolor="0" x="-133,2917938232422" showstereotype="1" y="248,0135192871094" font="Sans Serif,9,-1,0,50,0,0,0,0,0" localid="gdefP3LjhBCb" width="93" isinstance="0" usefillcolor="1" fillcolor="#ffff00" activityname="Czy sukces?" xmi.id="5to2DynTIg7k" postcondition="" documentation="" activitytype="1" height="30" precondition=""/>
+        </widgets>
+        <messages/>
+        <associations>
+         <assocwidget roleBdoc="" linecolor="none" indexa="1" usesdiagramfillcolor="0" widgetbid="KXADjrFP5VTV" indexb="1" linewidth="none" seqnum="" textcolor="none" usesdiagramusefillcolor="48" totalcounta="2" totalcountb="2" roleAdoc="" widgetaid="8MSJGPCzZTnF" font="Sans Serif,9,-1,0,50,0,0,0,0,0" visibilityA="0" visibilityB="0" usefillcolor="1" fillcolor="#ffff00" changeabilityA="900" changeabilityB="900" documentation="" type="515">
+          <linepath layout="Polyline">
+           <startpoint startx="141,6438337352178" starty="-160,958904109589"/>
+           <endpoint endx="313,0136986301369" endy="-160,958904109589"/>
+          </linepath>
+         </assocwidget>
+        </associations>
+       </diagram>
+      </diagrams>
+     </XMI.extension>
+    </UML:Model>
+    <UML:Model stereotype="folder" visibility="public" isSpecification="false" namespace="m1" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="Use Case View" name="Use Case View">
+     <UML:Namespace.ownedElement/>
+    </UML:Model>
+    <UML:Model stereotype="folder" visibility="public" isSpecification="false" namespace="m1" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="Component View" name="Component View">
+     <UML:Namespace.ownedElement/>
+    </UML:Model>
+    <UML:Model stereotype="folder" visibility="public" isSpecification="false" namespace="m1" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="Deployment View" name="Deployment View">
+     <UML:Namespace.ownedElement/>
+    </UML:Model>
+    <UML:Model stereotype="folder" visibility="public" isSpecification="false" namespace="m1" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="Entity Relationship Model" name="Entity Relationship Model">
+     <UML:Namespace.ownedElement/>
+    </UML:Model>
+   </UML:Namespace.ownedElement>
+  </UML:Model>
+ </XMI.content>
+ <XMI.extensions xmi.extender="umbrello">
+  <docsettings viewid="H1Rwjh3YCW6R" uniqueid="5to2DynTIg7k" documentation=""/>
+  <listview>
+   <listitem open="1" type="800" id="Views">
+    <listitem open="1" type="821" id="Component View"/>
+    <listitem open="1" type="827" id="Deployment View"/>
+    <listitem open="1" type="836" id="Entity Relationship Model"/>
+    <listitem open="1" type="801" id="Logical View">
+     <listitem open="0" type="807" id="JlNRxLbhIANg" label="class diagram"/>
+     <listitem open="0" type="830" id="Datatypes">
+      <listitem open="1" type="829" id="vWdDgyr1SL22"/>
+      <listitem open="1" type="829" id="g72OEFFX0axw"/>
+      <listitem open="1" type="829" id="qhYqFVkA1MLg"/>
+      <listitem open="1" type="829" id="mXr2Oja4qcS3"/>
+      <listitem open="1" type="829" id="KUT3aTWrGrta"/>
+      <listitem open="1" type="829" id="MtfCW6FMloA1"/>
+      <listitem open="1" type="829" id="KDfnWhnIEfJd"/>
+      <listitem open="1" type="829" id="DiFtGZ3WdWyM"/>
+      <listitem open="1" type="829" id="Ht9HFVvXgaKC"/>
+      <listitem open="1" type="829" id="oVTaHbbWUknh"/>
+      <listitem open="1" type="829" id="F6SUjl55fiH9"/>
+     </listitem>
+     <listitem open="0" type="809" id="H1Rwjh3YCW6R" label="z1_diagram_czynnosci"/>
+    </listitem>
+    <listitem open="1" type="802" id="Use Case View"/>
+   </listitem>
+  </listview>
+  <codegeneration>
+   <codegenerator language="C++"/>
+  </codegeneration>
+ </XMI.extensions>
+</XMI>

@@ -1,0 +1,46 @@
+/*!
+  \mainpage  Interpreter komend dla platformy mobilnej
+
+   Interpreter poleceń stworzony jest na potrzeby symulacji dzialania robota kolowego.
+
+ */
+
+/*!
+
+  \page strona_glowna Sposób działania interpreta
+
+  \tableofcontents
+
+  \section etykieta_zalozenia Podstawowe założenia
+
+   Interpreter poleceń wykonuje polecania z pliku, w którym 
+   mogą być występować definicje symboli makr w sensie
+   języka C, jak też komentarze o budowie właściwej dla tego
+   języka.
+
+
+ \section etykieta_algorytm Opis algorytmu działania
+
+Ponizej przedstawiony jest sposob pracy z interpreterem
+	  \image html menu.png
+	  
+Blok ,,Wykonaj funkcje odpowiadajace wczytanemu znakowi'' odpowiada wszelkiej funkjconalnosci jakiej dostarcza interpreter. Zmienne i odpowiadajace im funkcjonalnosci przedstawiaja  sie nastepujaco
+
+ \li \c w --- wczytanie nazwy pliku instrukcji dla robota,
+ \li \c p --- pokaz sekwencje intrukcji,
+ \li \c i --- pokaz dostepne instrukcje/wtyczki,
+ \li \c s --- start wykonywania sekwencji intrukcji,
+\li \c a --- dodaj nowa wtyczke,
+\li \c d --- usun wtyczke,
+\li \c ? --- wyswietl ponownie menu,
+
+\li \c k --- koniec dzialania programu.
+
+ Ponieżej przedstawiona jest podstawowa pętla przebiegu
+ procesu interpretacji listy poleceń czy dzialanie odpowiadajace zmiennej s, czyli startu wykonania sekwencji intrukcji.
+
+  \image html diagram_czynnosci.png
+
+
+
+*/
